@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Page-1" id="jiFFZxrsD2F314XZM9Cl">
-    <mxGraphModel dx="1303" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,11 +25,8 @@
         <mxCell id="Dk9E71RRh4oG-03v7j8k-14" parent="Dk9E71RRh4oG-03v7j8k-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5CCFF;strokeColor=#E5CCFF;" value="Key Service&lt;div&gt;Port : 5002&lt;/div&gt;&lt;div&gt;état clés&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="280" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="Dk9E71RRh4oG-03v7j8k-15" parent="Dk9E71RRh4oG-03v7j8k-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" value="Log Service&lt;div&gt;Port : 5003&lt;/div&gt;&lt;div&gt;Historique&lt;/div&gt;" vertex="1">
+        <mxCell id="Dk9E71RRh4oG-03v7j8k-15" parent="Dk9E71RRh4oG-03v7j8k-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" value="audit Service&lt;div&gt;Port : 5003&lt;/div&gt;&lt;div&gt;Historique&lt;/div&gt;&lt;div&gt;socket.io WS&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="280" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="Dk9E71RRh4oG-03v7j8k-16" parent="Dk9E71RRh4oG-03v7j8k-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#FFB570;" value="Notification&lt;div&gt;Port : 5004&lt;/div&gt;&lt;div&gt;Socket.io WS&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="280" y="280" as="geometry" />
         </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-18" parent="Dk9E71RRh4oG-03v7j8k-8" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" value="" vertex="1">
           <mxGeometry height="30" width="10" x="410" y="40" as="geometry" />
@@ -67,20 +64,11 @@
             <mxPoint x="410" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dk9E71RRh4oG-03v7j8k-39" edge="1" parent="Dk9E71RRh4oG-03v7j8k-8" source="Dk9E71RRh4oG-03v7j8k-30" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.033;exitY=0.83;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dk9E71RRh4oG-03v7j8k-16" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="510" y="290" as="sourcePoint" />
-            <mxPoint x="360" y="358" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-41" parent="Dk9E71RRh4oG-03v7j8k-8" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" value="" vertex="1">
           <mxGeometry height="30" width="10" x="410" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-43" parent="Dk9E71RRh4oG-03v7j8k-8" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" value="" vertex="1">
           <mxGeometry height="30" width="10" x="410" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="Dk9E71RRh4oG-03v7j8k-46" parent="Dk9E71RRh4oG-03v7j8k-8" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" value="" vertex="1">
-          <mxGeometry height="30" width="10" x="410" y="280" as="geometry" />
         </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-47" parent="Dk9E71RRh4oG-03v7j8k-8" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="" vertex="1">
           <mxGeometry height="15" width="20" x="460" y="95" as="geometry" />
@@ -90,9 +78,6 @@
         </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-73" parent="Dk9E71RRh4oG-03v7j8k-8" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="" vertex="1">
           <mxGeometry height="15" width="20" x="470" y="222.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Dk9E71RRh4oG-03v7j8k-74" parent="Dk9E71RRh4oG-03v7j8k-8" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="" vertex="1">
-          <mxGeometry height="15" width="20" x="450" y="287" as="geometry" />
         </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-75" edge="1" parent="Dk9E71RRh4oG-03v7j8k-8" source="Dk9E71RRh4oG-03v7j8k-10" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="Dk9E71RRh4oG-03v7j8k-13" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -110,12 +95,6 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="251" y="170" as="sourcePoint" />
             <mxPoint x="290" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dk9E71RRh4oG-03v7j8k-78" edge="1" parent="Dk9E71RRh4oG-03v7j8k-8" source="Dk9E71RRh4oG-03v7j8k-10" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="Dk9E71RRh4oG-03v7j8k-16" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="251" y="203" as="sourcePoint" />
-            <mxPoint x="290" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dk9E71RRh4oG-03v7j8k-79" edge="1" parent="Dk9E71RRh4oG-03v7j8k-8" source="Dk9E71RRh4oG-03v7j8k-9" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Dk9E71RRh4oG-03v7j8k-10" value="">
